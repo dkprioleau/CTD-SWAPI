@@ -1,0 +1,85 @@
+:root{ 
+    --yellow:#EBD83C;
+    --gray:#EAEFEF;
+    --blue:#43D4E4;
+    
+}
+
+*{ 
+    margin:0; 
+    padding:0;
+}
+
+body{ 
+    background:url("images/space-background.jpg");
+    background-attachment:fixed;  /*makes sure the picture always covers the background*/
+    background-size:cover;
+    
+}
+
+header{ 
+    background-color:var(--gray);
+    padding:px;
+}
+
+.logo{ 
+    height:40px; 
+    background-color:var(--yellow); 
+    border-radius:5px;
+    padding:2px 5px;
+    
+}  
+
+
+ul{ display:flex;
+    align-items:center;
+    justify-content:center;
+    list-style-type:none;
+    margin:0 auto;
+
+}
+
+li{ 
+    margin-right:5em;
+}
+
+li a{ 
+    text-decoration:none; 
+    color:black;
+}
+
+
+
+.blurb-container{ 
+    width:350px;
+    text-align:center;
+    padding:1.5em; 
+    margin:8em auto;
+    color:white;
+    
+} 
+
+
+
+.blurb-container h1{ 
+    color: var(--yellow);
+}
+
+.links{ 
+    margin:30px 10px;
+} 
+
+.links a{ 
+    padding:15px;
+    text-decoration:none; 
+    border:1px solid var(--yellow);
+    background-color:var(--yellow);
+    color:black; 
+    border-radius:5px;
+    margin:5px;
+} 
+
+.links a:hover{ 
+    border:1px solid var(--blue);
+    background-color:var(--blue);
+}
